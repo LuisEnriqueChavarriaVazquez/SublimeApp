@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+// Colors
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/badges";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/transitions";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/tapTarget";
+@import "components/pulse";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+
+/* ----titulo de la app en el menu---*/
+.brandTitle{
+	font-size: 20px;
+	margin-left: 15px;
+} 
+
+/* ----cuerpo de la aplicacion padding---*/
+.main{
+	padding: 40px 12px 30px 12px;
+}
+
+/* ----cuerpo de la aplicacion padding---*/
+.sectionTitle{
+	margin-left:20px;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+/*------Codigo de targetas de comandos-------*/
+.mainCodeContainer{
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 135px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.iconCode{
+	font-size: 25px;
+	padding: 5px;
+	position: relative;
+	height: 100%;
+	display: flex;	justify-content: center;
+	align-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.marginBoton{
+	margin:8px;
+}
+
+.borderLeft{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.borderRight{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.infoCodeContainer{
+	padding: 2px 5px 2px 5px;
+	background: #fff;
+	position: relative;
+	height: 100%;
+}
+
+.infoStyle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.infoStyle > span{
+	font-size: 25px;
+	font-weight: bold;
+	margin:3px;
+}
+
+
+/* ----------banner de anuncio para version pro------------- */
+
+.contenedorPro{
+	padding: 20px;
+	width: 100%;
+}
+
+
+/* --------------imagen de version PRO---------------------- */
+
+.anchoImagen{
+	width:100%;
+}
+
+/*COLORES ESPECIALES <<<'DEGRADADOS'>>> */
+
+.appleDegradado{
+	background: rgba(255,0,34,1);
+    background: -moz-linear-gradient(45deg, rgba(255,0,34,1) 0%, rgba(250,96,13,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,0,34,1)), color-stop(100%, rgba(250,96,13,1)));
+    background: -webkit-linear-gradient(45deg, rgba(255,0,34,1) 0%, rgba(250,96,13,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(255,0,34,1) 0%, rgba(250,96,13,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(255,0,34,1) 0%, rgba(250,96,13,1) 100%);
+    background: linear-gradient(45deg, rgba(255,0,34,1) 0%, rgba(250,96,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0022', endColorstr='#fa600d', GradientType=1 );
+}
+
+.windowsDegradado{
+	background: rgba(61,171,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(61,171,255,1) 0%, rgba(0,90,158,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(61,171,255,1)), color-stop(100%, rgba(0,90,158,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(61,171,255,1) 0%, rgba(0,90,158,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(61,171,255,1) 0%, rgba(0,90,158,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(61,171,255,1) 0%, rgba(0,90,158,1) 100%);
+    background: linear-gradient(135deg, rgba(61,171,255,1) 0%, rgba(0,90,158,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dabff', endColorstr='#005a9e', GradientType=1 );
+
+}
+
+
+//COMANDOS PARA LOS PRO
+/*//////////////////COMANDOS EXPLICAODS
+DE MANERA INDIVIDUAL/////////////////*/
+
+
+.fontImageGif{
+	background: url('img/2DOCOMANDO.gif');
+	width: 100%;
+	height: 300px;
+}
+
+.parallaxContainer{
+	height: 500px;
+}

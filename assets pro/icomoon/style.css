@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2jwy48');
+  src:  url('fonts/icomoon.eot?2jwy48#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2jwy48') format('truetype'),
+    url('fonts/icomoon.woff?2jwy48') format('woff'),
+    url('fonts/icomoon.svg?2jwy48#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-up:before {
+  content: "\e900";
+}
+.icon-book-open:before {
+  content: "\e919";
+}
+.icon-check:before {
+  content: "\e902";
+}
+.icon-chevron-down:before {
+  content: "\e903";
+}
+.icon-command:before {
+  content: "\e904";
+}
+.icon-help-circle:before {
+  content: "\e91a";
+}
+.icon-image:before {
+  content: "\e91b";
+}
+.icon-more-horizontal:before {
+  content: "\e916";
+}
+.icon-more-vertical:before {
+  content: "\e907";
+}
+.icon-play:before {
+  content: "\e908";
+}
+.icon-plus:before {
+  content: "\e917";
+}
+.icon-search:before {
+  content: "\e909";
+}
+.icon-settings:before {
+  content: "\e91c";
+}
+.icon-shopping-cart:before {
+  content: "\e918";
+}
+.icon-star:before {
+  content: "\e90a";
+}
+.icon-x:before {
+  content: "\e90b";
+}
+.icon-brand:before {
+  content: "\e90c";
+  color: #000;
+  font-size: 30px;
+}
+.icon-brand2:before {
+  content: "\e90d";
+  color: #3b5998;
+}
+.icon-brand3:before {
+  content: "\e90e";
+  color: #d14836;
+}
+.icon-brand4:before {
+  content: "\e90f";
+  color: #607d8b;
+}
+.icon-brand5:before {
+  content: "\e910";
+  color: #dc4e41;
+}
+.icon-brand6:before {
+  content: "\e911";
+  color: #e4405f;
+}
+.icon-brand7:before {
+  content: "\e912";
+  color: #36465d;
+}
+.icon-brand8:before {
+  content: "\e913";
+  color: #1da1f2;
+}
+.icon-brand9:before {
+  content: "\e914";
+  color: #0078d6;
+}
+.icon-brand10:before {
+  content: "\e915";
+  color: #cd201f;
+}
+.icon-shift:before {
+  content: "\ea4f";
+}
